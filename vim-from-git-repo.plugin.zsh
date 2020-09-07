@@ -1,1 +1,1 @@
-vg () {command source ${0:A:h}/vim-from-git-repo.zsh "$@"}
+vg () {command . ${0:A:h}/vim-from-git-repo.zsh "$@"}
